@@ -6,7 +6,7 @@ const AVG_TEMP = {
 function getTempOfTmrw(avgTemperatures) {
   "use strict";
   // change code below this line
-  const { } = avgTemperatures;
+  const { tomorrow } = avgTemperatures;
   const tempOfTomorrow = tomorrow; // change this line
   // change code above this line
   return tempOfTomorrow;
