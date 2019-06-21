@@ -1,5 +1,5 @@
 function translatePigLatin(str) {
-  const consonantRegex = /^[b-df-hj-np-tv-z]+/
+  const consonantRegex = /^[b-df-hj-np-tv-z]+/i
   // if begins with consonant or consonant cluster, take consonant/s and add to end of word.
   if (str.search(consonantRegex) === 0) {
     // saves match or matches into variable
@@ -15,3 +15,4 @@ function translatePigLatin(str) {
 console.log(translatePigLatin("consonant"));
 console.log(translatePigLatin("glove"));
 console.log(translatePigLatin("algorithm"));
+console.log(translatePigLatin("Thomas"));
